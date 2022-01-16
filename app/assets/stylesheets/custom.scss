@@ -1,12 +1,17 @@
+body {
+  background-image: url('haru1.jpeg');
+  // background-image: url('haru2.jpeg');
+  background-size: cover;
+}
 .header {
   height: 100px;
-  background-color: palevioletred;
+  // background-color: palevioletred;
 }
 .container {
   min-height: calc(100vh - 200px);
-  background-color: peru;
+  // background-color: peru;
 }
 .footer {
   height: 100px;
-  background-color: peachpuff;
+  // background-color: peachpuff;
 }
