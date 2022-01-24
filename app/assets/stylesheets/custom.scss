@@ -4,8 +4,42 @@ body {
   background-size: cover;
 }
 .header {
-  height: 100px;
-  // background-color: palevioletred;
+  height: 80px;
+  background-color: palevioletred;
+  display: flex;
+  line-height: 80px;
+  text-align: center;
+  &_logo{
+    width: 300px;
+  }
+  &_title{
+    flex: 1;
+  }
+  &_rigtht {
+    width: 300px;
+  }
+}
+.menu {
+  display: flex;
+  &_links {
+    width: 100%;
+    background-color: #6e6e6e;
+    height: 34px;
+    display: flex;
+    line-height: 34px;
+    li{
+      width: 100%;
+      text-align: center;
+      list-style: none;
+    }
+    li a{
+      color: #ffffff;
+      text-decoration: none;
+    }
+    li a:hover {
+      opacity: 0.8;
+    }
+  }
 }
 .container {
   min-height: calc(100vh - 200px);
