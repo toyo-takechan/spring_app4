@@ -1,9 +1,11 @@
 <header class="header" >
   <div class="header_logo">
-    <% link_to image_tag("flower-6.png", alt: "logo", width: "80px", class:"#") %>
+    <%= link_to image_tag("flower-6.png", alt: "logo", width: "80px", class:"#") %>
   </div>
   <div class="header_title">
-    <h1>Spring App</h1>
+    <h1><%= link_to "Spring App", "#" %></h1>
   </div>
-  <div class="header_rigtht">right</div>
+  <div class="header_right">
+    <h3><%= link_to "工事中", "#" %><h3>
+  </div>
 </header>
