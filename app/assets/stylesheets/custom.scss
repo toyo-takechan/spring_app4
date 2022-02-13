@@ -76,6 +76,20 @@ body {
   height: 100%;
   display: flex;
 }
+.main {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  &_btn{
+    font-size: 72px;
+    text-decoration: none;
+    background-color: rgb(216, 164, 218);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  &_btn:hover {
+    opacity: 50%;
+  }
+}
 .nav {
   width: 300px;
   min-height: 700px;
@@ -91,10 +105,7 @@ body {
     margin-bottom: 50px;
   }
 }
-.main {
-  width: calc(100% - 300px);
-  margin-left: 300px;
-}
+
 .footer {
   height: 130px;
   background-color: #6e6e6e;
